@@ -6,6 +6,7 @@ Comando para instalar git flow en el reposito y tener acceso a todas la rams den
 $ git flow init
 ```
 
+
 # Visualcion de Ramas (branchs)
 
 Comando para ver las ramificaciones y ver en la rama actual de trabajo.
@@ -48,4 +49,13 @@ $ git commit -m "descripcion"
 $ git flow feature publish "nombre_del_feature"
 $ git flow feature finish "nombre_del_feature" --kepplocal --keepremote
 $ git push -u origin develop
+```
+
+
+# Instalacion de Modulos React
+
+Comando para instalar los modulos de dependencia de React JS
+
+```git
+$ npm install react-scripts --save
 ```
